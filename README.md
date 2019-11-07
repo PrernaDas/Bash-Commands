@@ -1,8 +1,4 @@
 # Bash-Commands
-Bash Commands
-
-
-
 **su** - temporarily become the superuser
 </br>
 **sudo** - temporarily become the superuser
@@ -19,5 +15,5 @@ Bash Commands
 </br>
 **rwx --- ---** = 111 000 000 (100 in binary is 4)
 </br>
-## Change file permission
+### Change file permission
 chmod 600 some_file 
