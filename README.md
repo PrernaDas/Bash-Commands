@@ -6,16 +6,14 @@
 ## Change file ownership from 'me' to 'you' 
 **chown you some_file** 
 </br>
-**chgrp** - change a file's group ownership
+## Change group ownership
+**chgrp new_group some file** 
 </br>
-**chmod** - modify file access rights
+## Change access rights
+rwx rwx rwx** = 111 111 111 (111 in binary is 7)
 </br>
-**rwx rwx rwx** = 111 111 111 (111 in binary is 7)
+rw- rw- rw-** = 110 110 110 (110 in binary is 6; 101 in binary is 5)
 </br>
-**rw- rw- rw-** = 110 110 110 (110 in binary is 6; 101 in binary is 5)
-</br>
-**rwx --- ---** = 111 000 000 (100 in binary is 4)
-</br>
-## Change file permission
-chmod 600 some_file 
+rwx --- ---** = 111 000 000 (100 in binary is 4)
+**chmod 600 some_file**
 </br>
