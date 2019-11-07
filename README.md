@@ -19,5 +19,5 @@ Bash Commands
 </br>
 **rwx --- ---** = 111 000 000 (100 in binary is 4)
 </br>
-# To change a file permission
+## Change file permission
 chmod 600 some_file 
