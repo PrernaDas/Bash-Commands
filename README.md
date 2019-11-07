@@ -10,10 +10,11 @@
 **chgrp new_group some file** 
 </br>
 ## Change access rights
-rwx rwx rwx** = 111 111 111 (111 in binary is 7)
+rwx rwx rwx = 111 111 111 (111 in binary is 7)
 </br>
-rw- rw- rw-** = 110 110 110 (110 in binary is 6; 101 in binary is 5)
+rw- rw- rw- = 110 110 110 (110 in binary is 6; 101 in binary is 5)
 </br>
-rwx --- ---** = 111 000 000 (100 in binary is 4)
+rwx --- --- = 111 000 000 (100 in binary is 4)
+</br>
 **chmod 600 some_file**
 </br>
