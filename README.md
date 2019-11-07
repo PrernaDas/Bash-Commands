@@ -3,7 +3,8 @@
 </br>
 **sudo** - temporarily become the superuser
 </br>
-**chown** - change file ownership
+## Change file ownership from 'me' to 'you' 
+**chown you some_file** 
 </br>
 **chgrp** - change a file's group ownership
 </br>
@@ -15,5 +16,6 @@
 </br>
 **rwx --- ---** = 111 000 000 (100 in binary is 4)
 </br>
-### Change file permission
+## Change file permission
 chmod 600 some_file 
+</br>
