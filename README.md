@@ -18,3 +18,7 @@ rwx --- --- = 111 000 000 (100 in binary is 4)
 </br>
 **chmod 600 some_file**
 </br>
+## Count the number of lines in a text file
+</br>
+wc -l sample_text_file.txt
+
