@@ -19,6 +19,16 @@ rwx --- --- = 111 000 000 (100 in binary is 4)
 **chmod 600 some_file**
 </br>
 ## Count the number of lines in a text file
+wc -l sample_text_file.txt 
 </br>
-wc -l sample_text_file.txt
+## Count the number of words in a text file
+wc -m sample_text_file.txt
+</br>
+## Count the number of files in a folder/directory
+ls -l <folder> | wc -l
+ </br>
+ ## Looking at the first few lines of a text file
+ head -n 2 sample_text_file.txt
+ </br>
+ 
 
