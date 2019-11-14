@@ -32,6 +32,15 @@
  </br>
  ## Print the working directory 
  ``pwd``
+ </br>
+ ## Get the PATH variable (https://unix.stackexchange.com/questions/111550/what-is-path-on-a-mac-os)
+ ``echo $PATH``
+ </br>
+ ## Add to the PATH variable 
+ ``nano ~/.bash_profile``
+ ``export PATH=$PATH:/usr/local/sbin/modemZapp`` (append this at the end of the .bash_profile and save the changes made)
+ ``source ~/.bash_profile`` (Type this in the terminal. This will force the .bash_profile to execute and load the values immediately)
+ ``echo $PATH`` (confirm if the changes have been made)
  
  
 
