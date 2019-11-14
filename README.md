@@ -30,5 +30,8 @@ ls -l <folder> | wc -l
  ## Looking at the first few lines of a text file
  head -n 2 sample_text_file.txt
  </br>
+ ## Get the working directory (`print the working directory`)
+ ``pwd``
+ 
  
 
