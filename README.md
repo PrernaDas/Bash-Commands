@@ -39,7 +39,7 @@
  ## Add to the PATH variable 
  ``nano ~/.bash_profile``
  </br>
- ``export PATH=$PATH:/Library/PostgreSQL/12/bin`` (append this at the end of the .bash_profile and save the changes made; /Library/PostgreSQL/12/bin is the path where I want my system to look for the executables.
+ ``export PATH=$PATH:/Library/PostgreSQL/12/bin`` (append this at the end of the .bash_profile and save the changes made; /Library/PostgreSQL/12/bin is the path where I want my system to look for the executables.)
  </br>
  ``source ~/.bash_profile`` (Type this in the terminal. This will force the .bash_profile to execute and load the values immediately)
  </br>
