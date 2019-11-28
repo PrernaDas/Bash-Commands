@@ -44,6 +44,9 @@
  ``source ~/.bash_profile`` (Type this in the terminal. This will force the .bash_profile to execute and load the values immediately)
  </br>
  ``echo $PATH`` (confirm if the changes have been made)
- 
+ ## Concatenate several files into one
+ `cat file1.txt file2.txt file3.txt > all_files.txt`
+ `cat file1.xml file2.xml file3.xml > all_files.xml`
+ <br>
  
 
