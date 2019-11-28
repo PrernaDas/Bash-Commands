@@ -46,6 +46,7 @@
  ``echo $PATH`` (confirm if the changes have been made)
  ## Concatenate several files into one
  `cat file1.txt file2.txt file3.txt > all_files.txt`
+ <br>
  `cat file1.xml file2.xml file3.xml > all_files.xml`
  <br>
  
