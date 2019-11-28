@@ -1,48 +1,48 @@
 # Bash-Commands
 ``su`` - temporarily become the superuser
-</br>
+<br>
 ``sudo`` - temporarily become the superuser
-</br>
+<br>
 ## Change file ownership from 'me' to 'you' 
 ``chown you some_file``
-</br>
+<br>
 ## Change group ownership
 ``chgrp new_group some file``
-</br>
+<br>
 ## Change access rights
 ``rwx rwx rwx = 111 111 111 (111 in binary is 7)``
-</br>
+<br>
 ``rw- rw- rw- = 110 110 110 (110 in binary is 6; 101 in binary is 5)``
-</br>
+<br>
 ``rwx --- --- = 111 000 000 (100 in binary is 4)``
-</br>
+<br>
 ``chmod 600 some_file``
-</br>
+<br>
 ## Count the number of lines in a text file
 ``wc -l sample_text_file.txt``
-</br>
+<br>
 ## Count the number of words in a text file
 ``wc -m sample_text_file.txt``
-</br>
+<br>
 ## Count the number of files in a folder/directory
 ``ls -l <folder> | wc -l``
- </br>
+ <br>
  ## Looking at the first few lines of a text file
  ``head -n 2 sample_text_file.txt``
- </br>
+ <br>
  ## Print the working directory 
  ``pwd``
- </br>
+ <br>
  ## Get the PATH variable (https://unix.stackexchange.com/questions/111550/what-is-path-on-a-mac-os)
  ``echo $PATH``
- </br>
+ <br>
  ## Add to the PATH variable 
  ``nano ~/.bash_profile``
- </br>
+ <br>
  ``export PATH=$PATH:/Library/PostgreSQL/12/bin`` (append this at the end of the .bash_profile and save the changes made; /Library/PostgreSQL/12/bin is the path where I want my system to look for the executables.)
- </br>
+ <br>
  ``source ~/.bash_profile`` (Type this in the terminal. This will force the .bash_profile to execute and load the values immediately)
- </br>
+ <br>
  ``echo $PATH`` (confirm if the changes have been made)
  ## Concatenate several files into one
  `cat file1.txt file2.txt file3.txt > all_files.txt`
